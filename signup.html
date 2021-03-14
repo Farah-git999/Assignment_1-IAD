@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Damion&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/material-kit.css?v=2.0.6">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-default">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="index.html" >Baig,s Clothing</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+    
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Suits Unstiched</a>
+                            <a class="dropdown-item" href="#">Ready to Wear</a>
+                            <a class="dropdown-item" href="#">Kurti</a>
+                            <a class="dropdown-item" href="#">Trousers</a>
+                            <a class="dropdown-item" href="#">Scarfs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item cart">
+                        <a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge badge-secondary">0</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="logIn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LogIn</a>
+                            <div class="dropdown-menu" aria-labelledby="logIn">
+                                <form class="text-center" id="logIn-form">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            Remember me
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary btn-fab btn-round" id="btn-signin">></button>
+                                    <p class="text-center">New Member <a href="signup.html">Register </a>Here</p>
+                                </form>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                            <a href="signup.html" class="nav-link">SignUp</a>
+                    </li>
+                </ul>
+    
+                <form class="form-inline ml-auto">
+                    <div class="form-group no-border">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-white btn-just-icon btn-round">
+                        <i class="material-icons">search</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+     <div class="row"> 
+        <div class="col-sm-2 col-md-3 col-lg-3"></div>
+        <div class="col-sm-8 col-md-6 col-lg-6 SignIn">
+            <h2 class="text-center signup-heading">Create Your Account</h2>
+            <form class="text-center">
+                <div class="form-group">
+                    <label for="exampleInputName">Full Name</label>
+                    <input type="text" class="form-control" id="exampleInputName">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputCellNo">Cell Number</label>
+                    <input type="tel" class="form-control" id="exampleInputCellNo">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputCode">Verification Code</label>
+                    <input type="text" class="form-control" id="exampleInputCode">
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputDOB">Date Of Birth</label>
+                        <input type="date" class="form-control" id="exampleInputDOB">
+                    </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="">
+                        Remember me
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" id="btn-signin">Sign Up</button>
+                <p class="text-center">Already member? <a href="index.html">LogIn </a>Here</p>
+            </form>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

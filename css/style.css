@@ -1,0 +1,202 @@
+body {
+    background-color:rgb(252, 244, 252) !important;
+}
+.navbar-brand{
+    font-family:"damion";
+    font-size: 30px !important;
+    font-weight: bolder !important;
+    color: purple !important;
+}
+.navbar-nav {
+    color: purple !important;
+}
+.prod-heading {
+    font-family: "Calibri";
+    font-size: 40px;
+    font-style: italic;
+}
+.card-valign a button {
+    text-align: center;
+}
+.card-img-top{
+    height: 250px;
+}
+.card-link {
+    float: right !important;
+}
+.card-body {
+    line-height: 0px !important;
+    padding: 10px 25px !important;
+}
+.card-title {
+   color: purple !important;
+   margin-bottom: 2px !important;
+   margin-top: 0px !important;
+}
+.card-subtitle {
+    line-height: 12px !important;
+    color: purple !important;
+    font-weight: bold !important;
+}
+.cp {
+    background-color: purple !important;
+}
+.cp .card-title {
+    color: white !important;
+}
+.cp .card-subtitle {
+    color: white !important;
+}
+.cp .card-link {
+    color: white !important;
+}
+.cp .btn-fab {
+    background-color: purple !important;
+}
+.cp .btn-fab:hover {
+    background-color: white !important;
+    color: purple !important;
+}
+.cp .card-link:hover {
+    color: plum !important;
+}
+.cp .dot:hover {
+    color: purple !important;
+}
+.footer-1-contents{
+    /* border-top: 1px solid purple; */
+    background-color: #f2e7f7;
+    font-family: 'Calibri';
+    font-weight: bolder;
+}
+.footer-signup{
+    border-right: 1px solid purple;
+}
+.footer-stores{
+    border-right: 1px solid purple;
+}
+#footer-mail{
+    width: 250px;
+    align-content: center;
+    margin-left: 150px;
+}
+.footer-2{
+    background-color: purple;
+    margin-top: -30px;
+    color: #f1f1f1;
+}
+.list-group-item{
+    justify-content: center !important;
+    font-size: 16px !important;
+    line-height: 0px !important;
+    padding: 7px !important;
+}
+.footer-2-cust{
+    margin-left: -25px; 
+    margin-top:10px;
+    font-size: 23px;
+    font-family: 'Calibri';
+}
+.footer-2-icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+    margin: 20px 10px;
+}
+#logIn-form {
+    padding: 30px;
+    width: 260px;
+    height: 300px;
+}
+#btn-signin {
+    margin-bottom: 10px;
+}
+#register {
+    /* float: right; */
+    text-decoration: none purple;
+}
+.SignIn {
+    border: 1px purple double;
+    border-radius: 6px;
+    padding: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.signup-heading {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}
+.badge{
+    border-radius: 60% !important;
+}
+.product-container{
+    max-width:650px !important;
+    justify-content: space-around;
+}
+.product-header{
+    border-bottom: 2px solid purple;
+    color: rgb(20, 20, 20);
+}
+.price{
+    font-weight: bolder;
+    font-family: 'Calibri';
+}
+.product-title{
+    font-weight: bolder;
+    font-family: 'Calibri';
+}
+.product-title p{
+    padding-left: 10px;
+    display: inline-block !important;
+}
+.product-title>button{
+    border: none;
+    background-color: rgb(252, 244, 252);
+}
+.quantity{
+    font-weight: bolder;
+    font-family: 'Calibri';
+
+}
+.total{
+    font-weight: bolder;
+    font-family: 'Calibri';
+}
+.products{
+    align-items: center !important;
+    padding: 10px 0;
+    display: flex !important;
+    justify-content: space-around !important;
+    border-bottom: 1px solid rgb(133, 130, 130);
+}
+.quantity>input{
+    width: 50px;
+    
+}
+.fa-times-circle{
+    color: red;
+    font-size: 20px;
+}
+.grand-total{
+    align-items: center !important;
+    padding: 10px 0;
+    display: flex !important;
+    justify-content: space-around !important;
+    border-bottom: 1px solid rgb(133, 130, 130);
+}
+.grand-total h4{
+    font-family: 'Calibri';
+    font-weight: bolder !important;
+    color: rgb(65, 64, 64)
+}
+.grand-total p{
+    font-family: 'Calibri';
+}
+
+
+
